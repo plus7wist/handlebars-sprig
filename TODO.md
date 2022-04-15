@@ -1,0 +1,156 @@
+- [ ] conversion.md:## toStrings
+- [ ] conversion.md:## toDecimal
+- [ ] crypto.md:## sha1sum
+- [ ] crypto.md:## sha256sum
+- [ ] crypto.md:## adler32sum
+- [ ] crypto.md:## bcrypt
+- [ ] crypto.md:## htpasswd
+- [ ] crypto.md:## randBytes
+- [ ] crypto.md:## derivePassword
+- [ ] crypto.md:## genPrivateKey
+- [ ] crypto.md:## buildCustomCert
+- [ ] crypto.md:## genCA
+- [ ] crypto.md:## genCAWithKey
+- [ ] crypto.md:## genSelfSignedCert
+- [ ] crypto.md:## genSelfSignedCertWithKey
+- [ ] crypto.md:## genSignedCert
+- [ ] crypto.md:## genSignedCertWithKey
+- [ ] crypto.md:## encryptAES
+- [ ] crypto.md:## decryptAES
+- [x] date.md:## now
+- [ ] date.md:## ago
+- [ ] date.md:## date
+- [ ] date.md:## dateInZone
+- [ ] date.md:## duration
+- [ ] date.md:## durationRound
+- [ ] date.md:## unixEpoch
+- [ ] date.md:## dateModify, mustDateModify
+- [ ] date.md:## htmlDate
+- [ ] date.md:## htmlDateInZone
+- [ ] date.md:## toDate, mustToDate
+- [ ] defaults.md:## default
+- [ ] defaults.md:## empty
+- [ ] defaults.md:## coalesce
+- [ ] defaults.md:## all
+- [ ] defaults.md:## any
+- [ ] defaults.md:## fromJson, mustFromJson
+- [ ] defaults.md:## toJson, mustToJson
+- [ ] defaults.md:## toPrettyJson, mustToPrettyJson
+- [ ] defaults.md:## toRawJson, mustToRawJson
+- [ ] defaults.md:## ternary
+- [ ] dicts.md:## dict
+- [ ] dicts.md:## get
+- [ ] dicts.md:## set
+- [ ] dicts.md:## unset
+- [ ] dicts.md:## hasKey
+- [ ] dicts.md:## pluck
+- [ ] dicts.md:## dig
+- [ ] dicts.md:## merge, mustMerge
+- [ ] dicts.md:## mergeOverwrite, mustMergeOverwrite
+- [ ] dicts.md:## keys
+- [ ] dicts.md:## pick
+- [ ] dicts.md:## omit
+- [ ] dicts.md:## values
+- [ ] dicts.md:## deepCopy, mustDeepCopy
+- [ ] dicts.md:## A Note on Dict Internals
+- [ ] flow-control.md:## fail
+- [ ] integer-slice.md:## until
+- [ ] integer-slice.md:## untilStep
+- [ ] integer-slice.md:## seq
+- [ ] lists.md:## first, mustFirst
+- [ ] lists.md:## rest, mustRest
+- [ ] lists.md:## last, mustLast
+- [ ] lists.md:## initial, mustInitial
+- [ ] lists.md:## append, mustAppend
+- [ ] lists.md:## prepend, mustPrepend
+- [ ] lists.md:## concat
+- [ ] lists.md:## reverse, mustReverse
+- [ ] lists.md:## uniq, mustUniq
+- [ ] lists.md:## without, mustWithout
+- [ ] lists.md:## has, mustHas
+- [ ] lists.md:## compact, mustCompact
+- [ ] lists.md:## slice, mustSlice
+- [ ] lists.md:## chunk
+- [ ] lists.md:## A Note on List Internals
+- [x] math.md:## add
+- [ ] math.md:## add1
+- [x] math.md:## sub
+- [x] math.md:## div
+- [x] math.md:## mod
+- [x] math.md:## mul
+- [x] math.md:## max
+- [ ] math.md:## min
+- [x] math.md:## floor
+- [x] math.md:## ceil
+- [x] math.md:## round
+- [x] math.md:## randInt
+- [ ] mathf.md:## addf
+- [ ] mathf.md:## add1f
+- [ ] mathf.md:## subf
+- [ ] mathf.md:## divf
+- [ ] mathf.md:## mulf
+- [ ] mathf.md:## maxf
+- [ ] mathf.md:## minf
+- [ ] mathf.md:## floor
+- [ ] mathf.md:## ceil
+- [ ] mathf.md:## round
+- [ ] network.md:## getHostByName
+- [ ] os.md:## env
+- [ ] os.md:## expandenv
+- [ ] paths.md:## Paths
+- [ ] paths.md:## Filepaths
+- [ ] reflection.md:## Kind Functions
+- [ ] reflection.md:## Type Functions
+- [ ] reflection.md:## deepEqual
+- [ ] semver.md:## semver
+- [ ] semver.md:## semverCompare
+- [ ] semver.md:## Basic Comparisons
+- [ ] semver.md:## Working With Prerelease Versions
+- [ ] semver.md:## Hyphen Range Comparisons
+- [ ] semver.md:## Wildcards In Comparisons
+- [ ] semver.md:## Tilde Range Comparisons (Patch)
+- [ ] semver.md:## Caret Range Comparisons (Major)
+- [x] string-slice.md:## join
+- [x] string-slice.md:## splitList and split
+- [x] string-slice.md:## splitn
+- [x] string-slice.md:## sortAlpha
+- [x] strings.md:## trim
+- [x] strings.md:## trimAll
+- [x] strings.md:## trimSuffix
+- [x] strings.md:## trimPrefix
+- [x] strings.md:## upper
+- [x] strings.md:## lower
+- [ ] strings.md:## title
+- [ ] strings.md:## untitle
+- [ ] strings.md:## repeat
+- [ ] strings.md:## substr
+- [ ] strings.md:## nospace
+- [x] strings.md:## trunc
+- [x] strings.md:## abbrev
+- [ ] strings.md:## abbrevboth
+- [ ] strings.md:## initials
+- [ ] strings.md:## randAlphaNum, randAlpha, randNumeric, and randAscii
+- [ ] strings.md:## wrap
+- [ ] strings.md:## wrapWith
+- [ ] strings.md:## contains
+- [ ] strings.md:## hasPrefix and hasSuffix
+- [ ] strings.md:## quote and squote
+- [ ] strings.md:## cat
+- [ ] strings.md:## indent
+- [ ] strings.md:## nindent
+- [ ] strings.md:## replace
+- [x] strings.md:## plural
+- [ ] strings.md:## snakecase
+- [ ] strings.md:## camelcase
+- [ ] strings.md:## kebabcase
+- [ ] strings.md:## swapcase
+- [ ] strings.md:## shuffle
+- [ ] strings.md:## regexMatch, mustRegexMatch
+- [ ] strings.md:## regexFindAll, mustRegexFindAll
+- [ ] strings.md:## regexFind, mustRegexFind
+- [ ] strings.md:## regexReplaceAll, mustRegexReplaceAll
+- [ ] strings.md:## regexReplaceAllLiteral, mustRegexReplaceAllLiteral
+- [ ] strings.md:## regexSplit, mustRegexSplit
+- [ ] strings.md:## regexQuoteMeta
+- [ ] url.md:## urlParse
+- [ ] url.md:## urlJoin
